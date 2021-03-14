@@ -1,0 +1,30 @@
+{
+  "name": "uploadonchange",
+  "widgetName": "UploadOnChange",
+  "version": "1.0.0",
+  "description": "Add an on change Micro/Nanoflow to the standard Mendix file and image upload widgets",
+  "copyright": "",
+  "author": "Hunter Koppen",
+  "config": {
+    "projectPath": "../..//",
+    "mendixHost": "http://localhost:8080",
+    "developmentPort": "3000"
+  },
+  "packagePath": "clevr",
+  "scripts": {
+    "start": "pluggable-widgets-tools start:server --open",
+    "dev": "pluggable-widgets-tools start:web",
+    "build": "pluggable-widgets-tools build:web",
+    "lint": "pluggable-widgets-tools lint",
+    "lint:fix": "pluggable-widgets-tools lint:fix",
+    "prerelease": "npm run lint",
+    "release": "pluggable-widgets-tools release:web"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@mendix/pluggable-widgets-tools": "^8.14.0"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6"
+  }
+}
