@@ -2,7 +2,7 @@
   "name": "uploadonchange",
   "widgetName": "UploadOnChange",
   "version": "1.0.0",
-  "description": "Add an on change Micro/Nanoflow to the standard Mendix file and image upload widgets",
+  "description": "Add an on change Action to the standard Mendix file and image upload widgets",
   "copyright": "",
   "author": "Hunter Koppen",
   "config": {
