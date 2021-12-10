@@ -15,9 +15,11 @@ export default class UploadOnChange extends Component {
         
         uploaders.forEach(eventLoop);
         function eventLoop(item) {
-            console.log("item", item)
             item.onchange = function(e) {
-                trigger();
+                // short timeout to make sure all the upload widgets are available on the page
+                setTimeout(function(){ 
+                    trigger();
+                }, 100);
             };
         }
     }
