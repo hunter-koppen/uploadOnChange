@@ -8,4 +8,4 @@ Simply add the widget above or below the file/image upload widget from Mendix an
 https://uploadonchangewidget-sandbox.mxapps.io/
 
 ## Issues, suggestions and feature requests
-https://github.com/hunterkoppenclevr/uploadOnChange/issues
+https://github.com/hunter-koppen/uploadOnChange/issues
