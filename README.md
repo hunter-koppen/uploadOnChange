@@ -1,17 +1,11 @@
 ## UploadOnChange
-[Add an on change Micro/Nanoflow to the standard Mendix file and image upload widgets]
-
-## Features
-[feature highlights]
+Add an on change Action (Micro/Nanoflow) to the standard Mendix file and image upload widgets
 
 ## Usage
-[step by step instructions]
+Simply add the widget above or below the file/image upload widget from Mendix and configure the action you want to trigger. It will try to find the closest file/image uploader and add the action to it.
 
 ## Demo project
-[link to sandbox]
+https://uploadonchangewidget-sandbox.mxapps.io/
 
 ## Issues, suggestions and feature requests
-[link to GitHub issues]
-
-## Development and contribution
-[specify contribute]
+https://github.com/hunter-koppen/uploadOnChange/issues

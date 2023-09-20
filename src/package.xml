@@ -5,7 +5,7 @@
             <widgetFile path="UploadOnChange.xml"/>
         </widgetFiles>
         <files>
-            <file path="clevr/uploadonchange"/>
+            <file path="kobeon/uploadonchange"/>
         </files>
     </clientModule>
 </package>
