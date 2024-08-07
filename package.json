@@ -1,12 +1,12 @@
 {
   "name": "uploadonchange",
   "widgetName": "UploadOnChange",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Add an on change Action to the standard Mendix file and image upload widgets",
   "copyright": "",
   "author": "Hunter Koppen",
   "config": {
-    "projectPath": "../..//",
+    "projectPath": "../../",
     "mendixHost": "http://localhost:8080",
     "developmentPort": "3000"
   },
@@ -22,7 +22,7 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "@mendix/pluggable-widgets-tools": "^10.7.2",
+    "@mendix/pluggable-widgets-tools": "^10.12.1",
     "classnames": "^2.2.6"
   }
 }
